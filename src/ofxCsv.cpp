@@ -444,10 +444,24 @@ namespace wng {
 		data[row][col] = ofToString(what);
 	
 	}
-	
-	
-	
-	
+    
+    
+    /**
+     * Set a specific u_int64 to a new value.
+     *
+     * @param row
+     *        row number
+     * @param col
+     *        column number
+     * @param what
+     *        new row u_int64;
+     */
+    void ofxCsv::setUInt64(int row, int col, float what){
+        allocateData(row, col);
+        data[row][col] = ofToString(what);
+        
+    }
+
 	
 	/**
 	 * Set a specific String to a new value.

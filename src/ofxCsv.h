@@ -81,6 +81,7 @@ namespace wng {
 		
 			void setInt(int row, int col, int what);
 			void setFloat(int row, int col, float what);
+            void setUInt64(int row, int col, float what);
 			void setString(int row, int col, string what);
 			void setBool(int row, int col, bool what);
             void setData( vector<vector<string> > data);
